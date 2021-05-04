@@ -255,6 +255,9 @@ header {
 .menu {
   display: none;
 }
+.rightside-menu{
+  display:none;
+}
 
 @media screen and (max-width: 600px) {
   .container {

@@ -1,0 +1,363 @@
+body {
+  margin: 0;
+  font-family: "Gilroy";
+  font-weight: 700;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: aqua;
+}
+ul {
+  list-style-type: none;
+}
+.container {
+  max-width: 940px;
+  margin-right: auto;
+  margin-left: auto;
+}
+header {
+  background-color: white;
+}
+.nav-list {
+  display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0;
+  position: relative;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.nav-item {
+  margin-right: 140px;
+}
+
+.nav-link {
+  font-size: 18px;
+  line-height: 22px;
+  color: rgba(130, 130, 130, 1);
+}
+.nav-list::after {
+  content: "";
+  height: 1px;
+  background-color: black;
+  width: 940px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+}
+
+.nav-home {
+  color: black;
+}
+.about-text {
+  display: flex;
+  padding-bottom: 30px;
+}
+.about {
+  padding-bottom: 104px;
+}
+.name {
+  width: 124px;
+  font-size: 48px;
+  line-height: 59px;
+  color: black;
+  margin-right: 298px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.descr {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+  margin-top: 90px;
+  margin-right: 140px;
+}
+
+.lang {
+  transform: rotate(90deg);
+  margin: 0;
+  margin-top: 30px;
+}
+
+.about-me {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 107px;
+  padding-top: 120px;
+  background-color: #f6f6f6;
+}
+.about-title {
+  font-size: 34px;
+  line-height: 42px;
+  margin-top: 0;
+}
+.about-me-text {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+  width: 485px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 218px;
+}
+
+.about1 {
+  margin-bottom: 30px;
+  display: block;
+}
+.about2 {
+  margin-bottom: 30px;
+  display: block;
+}
+
+.skills {
+  background-color: white;
+  padding-top: 91px;
+  padding-bottom: 110px;
+}
+
+.my-skills {
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  margin-bottom: 69px;
+  margin-top: 0;
+}
+.skills-text {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 84px;
+}
+
+.programs-list {
+  display: flex;
+  padding: 0;
+}
+
+.programs-item {
+  margin-right: 90px;
+}
+
+.programs-item:last-child {
+  margin-right: 0;
+}
+
+.programs-desc {
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+}
+
+.skills-img {
+  padding-left: 40px;
+}
+
+.portfolio-item {
+  text-align: center;
+}
+.portfolio-title {
+  text-align: center;
+  font-size: 34px;
+  line-height: 42px;
+  margin: 0;
+  margin-bottom: 47px;
+}
+
+.portfolio {
+  background-color: #f6f6f6;
+  padding-top: 113px;
+  padding-bottom: 96px;
+  color: black;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.portfolio-item-img {
+  margin-bottom: 45px;
+}
+
+.portfolio-desc {
+  margin-bottom: 99px;
+  display: block;
+}
+
+.desc-last {
+  margin-bottom: 0;
+}
+
+.contacts {
+  text-align: center;
+  padding-top: 114px;
+  padding-bottom: 123px;
+}
+
+.contacts-title {
+  margin: 0;
+  font-size: 34px;
+  line-height: 42px;
+  margin-bottom: 20px;
+}
+
+.contacts-text {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+.send-message {
+  width: 180px;
+  height: 42px;
+  background-color: black;
+  color: white;
+  border-radius: 40px;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 86px;
+  cursor: pointer;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  margin-bottom: 45px;
+}
+.social-links-item {
+  margin-right: 60px;
+}
+.social-links-item:last-child {
+  margin-right: 0;
+}
+
+.subcribe {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 500;
+  color: #828282;
+  margin: 0;
+}
+.adapt {
+  display: none;
+}
+.menu {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    max-width: 375px;
+    justify-content: center;
+  }
+  nav {
+    display: none;
+  }
+  .name {
+    margin-top: 30px;
+    margin-bottom: 23px;
+  }
+  .desc {
+    margin-bottom: 37px;
+  }
+  .lang {
+    display: none;
+    visibility: hidden;
+  }
+  .about {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .about-text {
+    display: block;
+  }
+  .descr {
+    margin: 0;
+    width: 156px;
+  }
+  .adapt {
+    display: block;
+    width: 316px;
+    height: 478px;
+  }
+  .non-adapt {
+    display: none;
+  }
+  .programs-list {
+    display: block;
+    text-align: center;
+  }
+  .programs-item {
+    margin-right: 0;
+    margin-bottom: 82px;
+  }
+  .about-me-text {
+    width: 316px;
+  }
+  .skills-img {
+    padding-right: 30px;
+  }
+  .portfolio-item-img {
+    width: 316px;
+    height: 171px;
+  }
+
+  .menu {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    width: 33px;
+    height: 20px;
+    margin-right: 40px;
+    margin-top: 30px;
+    margin-left: 280px;
+  }
+  .rightside-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 375px;
+    height: 815px;
+    background-color: white;
+  }
+  .nav-link-menu {
+    font-size: 34px;
+    line-height: 42px;
+    color: #828282;
+    margin-bottom: 68px;
+    display: block;
+    width: 200px;
+  }
+  .close {
+    position: absolute;
+    right: 20px;
+    top: 66px;
+  }
+  .right-menu {
+    margin-top: 66px;
+  }
+  .open-menu {
+    display: inline;
+  }
+  .lang-menu {
+    position: absolute;
+    right: -45px;
+    top: 550px;
+    transform: rotate(90deg);
+    font-size: 34px;
+    line-height: 42px;
+  }
+}
